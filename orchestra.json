@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-integration-figma",
+    "description": "integration-figma tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-integration-figma/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-integration-figma"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "integration-figma",
+    "extra": {
+        "plugin-id": "tools.integration-figma",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
